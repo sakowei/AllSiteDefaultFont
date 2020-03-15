@@ -1,6 +1,6 @@
 # 所有站点使用默认字体样式
 
-##[脚本主页](https://greasyfork.org/zh-CN/scripts/397585-所有站点使用默认字体样式)
+## [脚本主页](https://greasyfork.org/zh-CN/scripts/397585-所有站点使用默认字体样式)
 - [查阅项目](https://github.com/rickweii/AllSiteDefaultFont) (On Github)
 - [汇报问题](https://github.com/rickweii/AllSiteDefaultFont/issues)
 - [Greasy 反馈](https://greasyfork.org/zh-CN/scripts/397585-%E6%89%80%E6%9C%89%E7%AB%99%E7%82%B9%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%AD%97%E4%BD%93%E6%A0%B7%E5%BC%8F/feedback)
