@@ -26,6 +26,6 @@
 ## 关于
 
 此项目使用 [GPL-3.0](https://opensource.org/licenses/GPL-3.0) 开源协议
-脚本作者 [RCWei](weibo.com/rcwei28)，使用中如有问题请 [汇报问题](https://github.com/rickweii/AllSiteDefaultFont/issues)
+脚本作者 [RCWei](https://weibo.com/rcwei28)，使用中如有问题请 [汇报问题](https://github.com/rickweii/AllSiteDefaultFont/issues)
 
 也可以访问[GitHub项目主页](https://github.com/rickweii/AllSiteDefaultFont)获取脚本的源代码和历史版本
