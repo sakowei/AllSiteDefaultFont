@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         所有站点使用默认字体样式
-// @namespace    https://rickweii.github.io
-// @version      0.12
+// @namespace    https://tampermonkey.net
+// @version      0.20
 // @description  设置所有网站字体样式：微软雅黑+取消加粗
 // @author       RCWei
 // @include        *:*
