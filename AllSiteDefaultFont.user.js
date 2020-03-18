@@ -16,8 +16,8 @@
 // ==/UserScript==
 
 ;(function () {
-  let css = document.createElement('style'); 
-  css.type = 'text/css'; 
-  css.innerHTML="* {font-family:微软雅黑; font-weight:400 !important;}"; 
+  let css = document.createElement('style');
+  css.type = 'text/css';
+  css.innerHTML="* {font-family:微软雅黑; font-weight:400 !important;}";
   document.getElementsByTagName('head').item(0).appendChild(css);
 })()
