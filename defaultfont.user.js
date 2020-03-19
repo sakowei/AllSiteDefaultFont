@@ -1,23 +1,31 @@
 // ==UserScript==
 // @name              所有站点使用默认字体样式
 // @namespace         https://gitub.com/weirick/AllSiteDefaultFont
-// @version           0.44
+// @version           1.0.1
 // @icon              https://weirick.github.io/storage/font.png
 // @description       设置所有网站字体样式：微软雅黑+取消加粗
 // @author            RCWei
 // @license           GPL-3.0
 // @supportURL        https://gitub.com/weirick/AllSiteDefaultFont
-// @updateURL         https://gitub.com/weirick/AllSiteDefaultFont/defaultfont.user.js
-// @downloadURL       https://gitub.com/weirick/AllSiteDefaultFont/defaultfont.user.js
 // @include             *://*/*
 // @noframes
-// @run-at            document-start
+// @run-at            document-end
 // @grant             none
+// @require           https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
 
 ;(function () {
   let css = document.createElement('style');
   css.type = 'text/css';
-  css.innerHTML="* {font-family:微软雅黑; font-weight:400 !important;}";
+  css.innerHTML="*{font-family:微软雅黑;font-weight:400!important;}a,h1,h2,h3,h4,h5,h6,p,b{font-weight:400!important;}.h1,.h2,.h3,.h4,.h5,.h6,{font-weight:400!important;}";
   document.getElementsByTagName('head').item(0).appendChild(css);
+  $('pre,code').css('cssText', 'font-weight:400 !important;font-family:Jetbrains Mono !important');
+
+  let body = document.getElementsByTagName('body')[0];
+  body.setAttribute('style','font-weight:400 !important');
+
+  let site = location.host;
+  if (site == 'github.com') {
+    $('.h1, .h2, .h3, .h4, .h5, .h6, p, a').css('cssText', 'font-weight:400 !important');
+  }
 })()
