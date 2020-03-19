@@ -1,6 +1,9 @@
 # 所有站点使用默认字体样式
 
+![TamperMonkey v4.9](https://img.shields.io/badge/TamperMonkey-v4.9-brightgreen.svg) ![Chrome x64 v80](https://img.shields.io/badge/Chrome%20x64-v80.0-brightgreen.svg)
+
 ## [脚本主页](https://greasyfork.org/zh-CN/scripts/397585-所有站点使用默认字体样式)
+
 - [查阅项目](https://github.com/weirick/AllSiteDefaultFont) (On Github)
 - [汇报问题](https://github.com/weirick/AllSiteDefaultFont/issues)
 - 一般不建议用 Greasy反馈 进行反馈，要反馈请使用 [汇报问题](https://github.com/weirick/AllSiteDefaultFont/issues) 选项
