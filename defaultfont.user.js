@@ -2,7 +2,7 @@
 // @name              所有站点使用默认字体样式
 // @namespace         https://gitub.com/weirick/AllSiteDefaultFont
 // @version           0.44
-// @icon
+// @icon              https://weirick.github.io/storage/font.png
 // @description       设置所有网站字体样式：微软雅黑+取消加粗
 // @author            RCWei
 // @license           GPL-3.0
@@ -16,8 +16,8 @@
 // ==/UserScript==
 
 ;(function () {
-  let css = document.createElement('style'); 
-  css.type = 'text/css'; 
-  css.innerHTML="* {font-family:微软雅黑; font-weight:400 !important;}"; 
+  let css = document.createElement('style');
+  css.type = 'text/css';
+  css.innerHTML="* {font-family:微软雅黑; font-weight:400 !important;}";
   document.getElementsByTagName('head').item(0).appendChild(css);
 })()
