@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              所有站点使用默认字体样式(思源黑体)
 // @namespace         https://gitub.com/weirick/AllSiteDefaultFont
-// @version           1.0.3b
+// @version           1.0.3c
 // @icon              https://weirick.github.io/storage/font.png
 // @description       设置所有网站字体样式：思源黑体+取消加粗
 // @author            RCWei
@@ -36,7 +36,6 @@
       break;
 
     default:
-      $('*').css('cssText', 'font-weight:350 !important');
   }
 
 })()
