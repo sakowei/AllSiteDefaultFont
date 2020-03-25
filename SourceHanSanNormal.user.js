@@ -17,22 +17,22 @@
 ;(function () {
   let css = document.createElement('style');
   css.type = 'text/css';
-  css.innerHTML="*{font-family:思源黑体;font-weight:350!important;}a,h1,h2,h3,h4,h5,h6,p,b{font-weight:350!important;}.h1,.h2,.h3,.h4,.h5,.h6,{font-weight:350!important;}";
+  css.innerHTML="*{font-family:思源黑体;font-weight:400!important;}a,h1,h2,h3,h4,h5,h6,p,b{font-weight:400!important;}.h1,.h2,.h3,.h4,.h5,.h6,{font-weight:400!important;}";
   document.getElementsByTagName('head').item(0).appendChild(css);
-  $('pre,code').css('cssText', 'font-weight:350 !important;font-family:Jetbrains Mono !important');
+  $('pre,code').css('cssText', 'font-weight:400 !important;font-family:Jetbrains Mono !important');
 
   let body = document.getElementsByTagName('body')[0];
-  body.setAttribute('style','font-weight:350 !important');
+  body.setAttribute('style','font-weight:400 !important');
 
   var site = location.host;
   switch (site) {
     case 'github.com':
-      $('.h1, .h2, .h3, .h4, .h5, .h6, p, a').css('cssText', 'font-weight:350 !important');
-      $('.text-bold').css('cssText', 'font-weight:350 !important');
+      $('.h1, .h2, .h3, .h4, .h5, .h6, p, a').css('cssText', 'font-weight:400 !important');
+      $('.text-bold').css('cssText', 'font-weight:400 !important');
       break;
 
     case 'member.bilibili.com':
-      $('#app *').css('cssText', 'font-weight:350 !important');
+      $('#app *').css('cssText', 'font-weight:400 !important');
       break;
 
     default:
