@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              所有站点使用默认字体样式
 // @namespace         https://gitub.com/weirick/AllSiteDefaultFont
-// @version           1.0.1
+// @version           1.2.0
 // @icon              https://weirick.github.io/storage/font.png
 // @description       设置所有网站字体样式：微软雅黑+取消加粗
 // @author            RCWei
@@ -9,7 +9,7 @@
 // @supportURL        https://gitub.com/weirick/AllSiteDefaultFont
 // @include             *://*/*
 // @noframes
-// @run-at            document-end
+// @run-at            document-start
 // @grant             none
 // @require           https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
@@ -24,8 +24,17 @@
   let body = document.getElementsByTagName('body')[0];
   body.setAttribute('style','font-weight:400 !important');
 
-  let site = location.host;
-  if (site == 'github.com') {
-    $('.h1, .h2, .h3, .h4, .h5, .h6, p, a').css('cssText', 'font-weight:400 !important');
+  var site = location.host;
+  switch (site) {
+    case 'github.com':
+      $('.h1, .h2, .h3, .h4, .h5, .h6, p, a').css('cssText', 'font-weight:400 !important');
+      $('.text-bold').css('cssText', 'font-weight:400 !important');
+      break;
+
+    case 'member.bilibili.com':
+      $('#app *').css('cssText', 'font-weight:400 !important');
+      break;
+
+    default:
   }
-})()
+})();
